@@ -12,7 +12,7 @@ barriers = "0.1.0"
 
 ## Usage
 
-A barrier must first be initialized before using. A new barrier can be created by using the `init` method and specifying the count.
+A barrier must first be initialized before using. A new barrier can be created by using the `init` method and specifying the count. This barrier is a simple counting barrier that spins on a `sense` variable. 
 
 ```rust
 let barr = barrier::Barrier::init(4); // 4 is the number of threads
