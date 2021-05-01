@@ -7,7 +7,7 @@ A barrier spin lock implementation in rust!
 Just add the below to your `Cargo.toml` dependencies.
 
 ```
-barriers = "0.1.0"
+barriers = "<version number>"
 ```
 
 ## Usage
