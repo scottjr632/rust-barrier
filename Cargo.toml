@@ -1,14 +1,13 @@
 [package]
 name = "barriers"
-version = "0.2.0"
+version = "0.2.1"
 authors = ["Scott Richardson <scott@scottrichardson.dev>"]
 edition = "2018"
 description = "A barrier spin lock implementation"
 documentation = "https://github.com/scottjr632/rust-barriers"
 readme = "README.md"
-licence = "MIT"
-license-file = "LICENSE"
-
+license = "MIT"
+keywords = ["synchronization", "barrier", "spin lock"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
